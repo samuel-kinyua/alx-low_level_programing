@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
-/*main - Entry point*/
-/* the program idetifies whether a number is -ve ore =+v*/
-/*return: Always 0  (succuss)*/
-
+/**
+*main - Entry point
+*Return: Always 0 (succuss)
+*/
 int main(void)
 
 {
@@ -16,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n < 0)
-		printf(" %d is_negative \n", n);
+		printf(" %d is negtive \n", n);
 	else if (n == 0)
 		printf(" %d is zero\n", n);
 	else
