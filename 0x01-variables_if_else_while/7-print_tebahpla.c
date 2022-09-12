@@ -12,8 +12,10 @@ int main(void)
 	while (lc >= 'a')
 	{
 		putchar(lc);
-		lc++;
-	putchar('\n');
+		lc--;
 	}
+	
+	putchar('\n');
+	
 	return (0);
 }
