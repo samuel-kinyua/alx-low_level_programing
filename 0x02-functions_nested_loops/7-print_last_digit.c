@@ -3,15 +3,15 @@
  *print_last_digit - prints the last digit of a num
  *
  * @n: this is num to be checked
- * Return: 0 always when succesful
+ * Return: 0 last digit
  */
-
-int print_last_digit(int n)
+nt print_last_digit(int n)
 {
-	last_digit = n % 10;
-	if (last_digit n < 0)
-		last_digit *= -1;
+	int last_digit = n % 10;
 
+	if (last_digit < 0)
+		last_digit *= -1;
 	_putchar(last_digit + '0');
 	return (last_digit);
+
 }
