@@ -15,7 +15,7 @@ void jack_bauer(void)
 	{
 	while (minutes <= 59)
 	{
-	_remainder = minutes % 10;
+	mins_remainder = minutes % 10;
 
 	hours_remainder = hours % 10;
 
