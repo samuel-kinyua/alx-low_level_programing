@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_most_numbers - print nnumbers
  * ecept 2 and 4
@@ -9,16 +9,15 @@
 
 void print_most_numbers(void)
 {
-	int i;
+	int n;
 
-	for (n = '0'; n < '9'; i++)
+	for (n = 48; n < 58; n++)
 	{
-		if ((i == '2') || (i == '4'))
+		if ((n == 50) || (n == 52))
 		{
 			continue;
 		}
-		_putchar(i);
-	_putchar(10);
+		putchar(n);
 	}
-
+	putchar(10);
 }
