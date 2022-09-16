@@ -13,14 +13,15 @@ int _isupper(int c)
 {
 	int c;
 
-	if (c == 'a')
+	if ((c >= 'A') && (c <= 'Z')
 	{
-		else if (c == 'A')
 		{
 			return (1);
 		}
-
-	return (0);
+	else
+	}
+		return (0);
+	
 	}
 
 }
