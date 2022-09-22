@@ -4,7 +4,7 @@
  * cap_string - This Capitalizes any begining of a word
  * @s: The string
  *
- * Return: 	The capitalized string
+ * Return: The capitalized string
  */
 
 char *cap_string(char *s)
