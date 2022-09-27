@@ -13,8 +13,10 @@ char *_strchr(char *s, char c)
 	int i = 0;
 
 	for (i = 0; s[i] != '\n'; i++)
+	{
 		if (s[i] == c)
 			return (&s[i]);
+	}
 	return (NULL);
 }
 
