@@ -3,20 +3,18 @@
 /**
   *_strchr - searches for achar in string
   *@c: char to be checked for in string
-  *@s: string
+  *@s: string where to search
   *
   *Return: string if present Null when not.
   */
 
 char *_strchr(char *s, char c)
 {
-	if (*s == c)
-	{
-		return (*s);
-	}
-	else if (!*s)
-		return (NULL);
-	}
+	int i = 0;
+
+	for (i = 0; s[i] != '\n'; i++)
+		if (s[i] == c)
+			return (&s[i]);
 	return (NULL);
 }
 
