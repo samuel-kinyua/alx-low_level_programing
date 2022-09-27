@@ -3,6 +3,7 @@
 /**
   *_strchr - searches for achar in string
   *@c: char to be checked for in string
+  *@s: string
   *
   *Return: string if present Null when not.
   */
@@ -13,7 +14,7 @@ char *_strchr(char *s, char c)
 
 	for (i = 0; i < '\0'; i++)
 	{
-		if (c == i && c != '\0')
+		if (*s == c && c != '\0')
 		{
 			return (s);
 		}
