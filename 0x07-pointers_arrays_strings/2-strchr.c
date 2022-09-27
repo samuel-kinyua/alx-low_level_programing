@@ -10,14 +10,16 @@
 
 char *_strchr(char *s, char c)
 {
+	int i = 0;
 
-	int i;
-	for (i = 0; s[i] != '\n'; i++)
-	{
-		if (s[i] == c)
-			return (&s[i]);
-	}
-	return (NULL);
+	while (s[i] != '\0' && s[i] != c) /* find match */
+
+		i++;
+
+	if (s[i] == c) /* if match, assign to address */
+		return (&s[i]);
+	else
+		return (NULL);
 }
 
 
