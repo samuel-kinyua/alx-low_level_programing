@@ -10,12 +10,12 @@
 
 int _sqrt(int n, int y)
 {
-	if (n < 1)
+	if (n == 1)
 	{
 		return (1);
 
 	}
-	else if (n < 0 || n == 0)
+	else if (y == n || n < 0)
 	{
 		return (-1);
 
