@@ -13,7 +13,7 @@
 int main(int argc, __attribute__((unused)) char *argv[])
 {
 	if (argc > 0)
-		printf("%d", argc);
+		printf("%d", argc -1);
 
 	return (0);
 
