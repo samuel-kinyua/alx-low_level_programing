@@ -10,8 +10,8 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d == NULL)
-		retrn;
+	if (d)
+		return;
 
 	d->name = name;
 	d->age = age;
