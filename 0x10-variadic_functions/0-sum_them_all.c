@@ -3,7 +3,7 @@
 
 /**
   *sum_them_all - adds all the parameters
-  *@n: first arguments
+  *@n: first arguments of integer type (unsigned)
   *
   *Return: sum of int type
   */
